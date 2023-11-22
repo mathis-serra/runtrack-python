@@ -7,7 +7,6 @@ def verifier_pair_impair(nombre):
     else:
         print("Erreur : Veuillez entrer un nombre entier positif.")
 
-# Appels de la fonction pour tester son fonctionnement
 verifier_pair_impair(4)
 verifier_pair_impair(7)
 verifier_pair_impair(0)
