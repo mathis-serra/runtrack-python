@@ -7,4 +7,4 @@ marches = int(input("Nombre de marches du phare : "))
 hauteur = int(input("Hauteur de chaque marche (en cm) : "))
 
 distance = calculate_distance(marches, hauteur)
-print(f"Pour {marches} marches de {hauteur} cm, le gardien parcourt {distance} m par semaine.")
+print("Pour", marches, "marches de", hauteur, "cm, le gardien parcourt", distance, "m par semaine.")
